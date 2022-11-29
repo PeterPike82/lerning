@@ -1,0 +1,11 @@
+# This program prints the following numbers in two columns
+num1 = 1213.121
+num2 = 456.123
+num3 = 122.3254
+num4 = 132.123546
+num5 = 123.741
+num6 = 45.215789
+
+print(f'{num1:10.2f}{num2:10.2f}')
+print(f'{num3:10.2f}{num4:10.2f}')
+print(f'{num5:10.2f}{num6:10.2f}')
