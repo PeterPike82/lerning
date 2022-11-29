@@ -1,0 +1,9 @@
+#  This script will allow you to calculate the amount required
+#  for an interest payment to accumulate a certain amount for a certain time
+
+future_value = float(input('Enter the amount you want to save: '))
+interest_rate = float(input('Enter the annual interest rate: '))
+time = float(input('Enter the number of years after which you want to receive this amount:'))
+
+present_value = future_value / (1.0 + interest_rate) ** time
+print('You need to deposit: ', present_value)
